@@ -1,5 +1,13 @@
-# Python 3.9.2
-# pip install paramiko
+#
+# AUTHOR: Marcus Siqueira
+# This PHP example send the data via post request to one of the APIs avaiable by Amicci. 
+# It's a generic code, and simulates a large number of data to be sent.
+# It iterated over a bunch of data and sent a maximum number of data each time. 
+# The number of the requests to the API will depend on the ammount of data, because it's not fully sent at once, but in parts.
+# 
+# Requirements:
+# - Php 7.1.1 (different versions may need code change)
+# - Curl 8.4.0  (differente versions may need code change)
 import paramiko
 
 #Enable if you want log transaction
